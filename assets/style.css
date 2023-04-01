@@ -1,0 +1,24 @@
+body {
+background-color: rgb(247, 250, 239);
+}
+
+.main {
+    border: 5px;
+    padding: 20px;
+    margin: 20px;
+    margin: center;
+    text-align: center;
+}
+
+
+button {
+    cursor: pointer;
+    font-size: 10px;
+    background-color: #4da0f3;
+    color: white;
+   
+}
+
+.questions {
+    display: none;
+}
