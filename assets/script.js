@@ -1,5 +1,9 @@
-var Qlist = document.getElementById("questions");
+var button = document.createElement("button");
+button.innerHTML = "click to start test";
 
-buttonButton.addEventListener("click", function(event) {
-    event.
-})
+var Qlist = document.getElementById("questions");
+Qlist.appendChild(button);
+
+button.addEventListener("click", function(event) {
+    alert("yes");
+});
