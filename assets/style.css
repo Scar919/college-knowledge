@@ -22,3 +22,7 @@ button {
 #questions {
     display: none;
 }
+
+.hide {
+    display: none;
+}
