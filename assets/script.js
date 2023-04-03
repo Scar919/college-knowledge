@@ -1,9 +1,44 @@
-var button = document.createElement("button");
-button.innerHTML = "click to start test";
+var testq = document.getElementById("questions");
+var button = document.getElementById("#press");
+var qlist = document.getElementsByClassName("display");
+var qanswers = document.getElementsByClassName("answers");
+var qcheck = document.getElementsByClassName("check");
+var tresults = document.getElementById("results");
+var tscore = document.getElementsByClassName("score");
+var hslist = document.getElementsByClassName("hs-list");
 
-var Qlist = document.getElementById("questions");
-Qlist.appendChild(button);
+const questions = [
+    { question:
+    }
+]
 
-button.addEventListener("click", function(event) {
-    alert("yes");
-});
+
+
+
+
+function start() {
+    button.addEventListener('click', function (event){
+        event.preventDefault()
+        displayquestions()
+    })
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
