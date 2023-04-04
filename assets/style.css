@@ -2,7 +2,7 @@ body {
 background-color: rgb(247, 250, 239);
 }
 
-.main {
+.test {
     border: 5px;
     padding: 20px;
     margin: 20px;
@@ -20,9 +20,17 @@ button {
 }
 
 #questions {
-    display: none;
+   
 }
 
 .hide {
-    display: none;
+    
+}
+
+#question-container {
+    border: 5px;
+    padding: 20px;
+    margin: 20px;
+    margin: center;
+    text-align: center;
 }

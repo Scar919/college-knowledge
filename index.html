@@ -9,37 +9,43 @@
 
 </head>
 
-<header>
-    <div id="time">time</div>
-    <div id="score">score</div>
-</header>
-
 <body>
-    <section class="main">
-        <h1>Test your skills</h1>
-        <p>Let's test your knowledge! is it coding-level begginer? or coding-level expert! Lets put your knowledge to the test within the given time limit!</p>
-        <p>Each incorrect answer will deduct 5 seconds of time.</p>
-        <p>Ready? Lets begin!</p>
-        <button id="press">CLICK TO START TEST</button>
+    <header>
+        <div class="time">
+            <p>timer:<span id="time">0</span></p>
+        </div>
+    
+        <div id="score">score</div>
+    </header>
+
+<main>
+    <section class="test">
+        <div id="test-start">
+            <div id ="start-screen" class="home">
+                <h1>Test your skills</h1>
+                <p>Let's test your knowledge! is it coding-level begginer? or coding-level expert! Lets put your knowledge to the test within the given time limit!</p>
+                <p>Each incorrect answer will deduct 5 seconds of time.</p>
+                <p>Ready? Lets begin!</p>
+                <button id="start">CLICK TO START TEST</button>
+            </div>   
+        </div>
     </section>
 
-
-   <div id="questions"></div> 
-   <section class="hide">
-            <h2>questions-container</h2>
+    <section class="hide" id="questpg">
+            <h2 id="questions-container"></h2>
             <div class="display"></div> 
-            <div class="answers"></div>
-            <div class="check"></div>
     </section>
    
-    <div id="results"></div>
-    <section class="hide">
+    <section class="hide" id="end">
+        <div id="results"></div>
              <h2>results</h2>
              <div class="score"></div>
              <div class="hs-list"></div>
     </section>
-           
 
+    <div id="score" class="score"></div>
+           
+</main>
     <script src="./assets/script.js"></script>
 </body>
 </html>
